@@ -1,0 +1,15 @@
+:root {
+  --bg: hsl(214, 47%, 23%) hsl(237, 49%, 15%);
+  --red-color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+  font-family:  "Barlow SemiCondensed";
+  font-weight: 600;
+}
