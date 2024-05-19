@@ -1,6 +1,27 @@
 :root {
-  --bg: hsl(214, 47%, 23%) hsl(237, 49%, 15%);
-  --red-color: red;
+  font-size: 62.5%;
+
+  /* FONT WEIGHTS */
+  --ft-w-600: 600;
+  --ft-w-700: 700;
+
+  /* GRADIENTS */
+  --bg: radial-gradient(circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  --scissors: hsl(40, 84%, 53%);
+  --scissors-shadow: hsla(39, 89%, 49%, .6);
+  --paper:  hsl(230, 89%, 65%);
+  --paper-shadow: hsl(230, 89%, 62%, .6);
+  --rock: hsl(349, 70%, 56%);
+  --rock-shadow: hsla(349, 71%, 52%, .6);
+  --lizard-gradient: hsl(261, 73%, 60%) to hsl(261, 72%, 63%);
+  --spock-gradient: hsl(189, 59%, 53%) to hsl(189, 58%, 57%);
+  --inner-shadow: hsla(217, 16%, 45%, 0.450);
+
+  /* NEUTRAL COLORS */
+  --ntl-dk-txt: hsl(229, 25%, 31%);
+  --ntl-score-txt: hsl(229, 64%, 46%);
+  --ntl-header-outline: hsl(217, 16%, 45%);
+  --white: hsl(0, 0%, 100%);
 }
 
 * {
@@ -12,4 +33,5 @@
 body {
   font-family:  "Barlow SemiCondensed";
   font-weight: 600;
+  font-size: 1.6rem;
 }

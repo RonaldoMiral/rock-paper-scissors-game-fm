@@ -1,0 +1,86 @@
+.wrapper {
+    width: 10.5rem;
+    height: 10.5rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 2rem;
+}
+
+.rock {
+    box-shadow:
+    0 .4rem 0 .1rem var(--inner-shadow) inset,
+    0 0 0 2rem var(--rock),
+    0 .6rem 0 1.9rem var(--rock-shadow);
+
+    top: 18.3rem;
+}
+
+.paper {
+    box-shadow:
+    0 .4rem 0 .1rem var(--inner-shadow) inset,
+    0 0 0 2rem var(--paper),
+    0 .6rem 0 1.9rem var(--paper-shadow);
+
+    left: 2rem;
+}
+
+.scissors {
+    box-shadow:
+    0 .4rem 0 .1rem var(--inner-shadow) inset,
+    0 0 0 2rem var(--scissors),
+    0 .6rem 0 1.9rem var(--scissors-shadow);
+
+    right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .paper span {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 10.5rem;
+    height: 10.5rem;
+    
+    display: grid;
+    place-items: center;
+}
+
+.paper {
+    width: 14.2rem;
+    height: 14.2rem;
+    border-radius: 50%;
+    border: 2rem solid red;
+
+    background-color: green;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 7px gold;
+
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.paper img {
+    width: 5.8rem;
+    /* height: 5.8rem; */
+/* } */
