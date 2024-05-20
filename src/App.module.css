@@ -1,7 +1,11 @@
 .app {
     background-image: var(--bg);
     min-height: 100vh;
-    padding: 3rem 1.6rem;
+    padding: 3rem 1.6rem 5.5rem;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /* justify-content: center; */
 }
 
 .symbols_container {
@@ -11,9 +15,18 @@
     background-image: url("./assets/bg-triangle.svg");
     background-repeat: no-repeat;
     background-position: center 6rem;
-    background-size: 27rem;
+    background-size: 23rem;
+    align-self: center;
 
 
     display: grid;
     place-items: center;
+}
+
+
+@media screen and (min-width: 375px) {
+    .symbols_container {
+        background-size: 27rem;
+    }
+
 }

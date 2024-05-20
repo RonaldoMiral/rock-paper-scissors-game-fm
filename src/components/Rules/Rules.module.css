@@ -1,0 +1,14 @@
+.rules {
+    color: var(--white);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: var(--ft-w-700);
+    border: .2rem solid var(--white);
+    border-radius: 1rem;
+    outline: 0;
+    padding: 1.4rem 3.8rem;
+    cursor: pointer;
+
+
+    justify-self: center;
+}

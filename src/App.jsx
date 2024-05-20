@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ScoreBoard from './components/ScoreBoard/ScoreBoard.jsx';
 import Symbol from './components/Symbol/Symbol.jsx';
+import Rules from './components/Rules/Rules.jsx';
 
 import rock from './assets/icon-rock.svg';
 import paper from './assets/icon-paper.svg';
@@ -21,6 +22,7 @@ function App() {
       <div className={styles.symbols_container}>
         { symbols }
       </div>
+      <Rules />
     </div>
   )
 }

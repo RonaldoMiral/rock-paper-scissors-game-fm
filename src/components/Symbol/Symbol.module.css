@@ -1,6 +1,6 @@
 .wrapper {
-    width: 10.5rem;
-    height: 10.5rem;
+    width: 8rem;
+    aspect-ratio: 1/1;
     background-color: whitesmoke;
     border-radius: 50%;
     
@@ -35,6 +35,14 @@
     0 .6rem 0 1.9rem var(--scissors-shadow);
 
     right: 2rem;
+}
+
+@media screen and (min-width: 375px) {
+    .wrapper {
+        width: 10.5rem;
+    }
+
+    .rock { top: 18.3rem; }
 }
 
 
